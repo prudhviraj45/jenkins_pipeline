@@ -16,7 +16,7 @@ def two():
 
 @app.route("/three")
 def three():
-    return jsonify({"Time of Call Three": time.time()})
+    return jsonify({"Time of Call The": time.time()})
 
 
 if __name__ == "__main__":
